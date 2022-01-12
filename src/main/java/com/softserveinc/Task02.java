@@ -41,10 +41,5 @@ public class Task02 {
         System.out.println(cups*200 + " ml of water");
         System.out.println(cups*50 + " ml of milk");
         System.out.println(cups*15 + " g of coffee beans");
-
-
-
-
-
     }
 }
