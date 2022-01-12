@@ -10,19 +10,15 @@ public class Task03 {
         System.out.println(" Write how many ml of water the coffee machine has:");
         System.out.print(">>>");
         int enteredWater = scanner.nextInt();
-
         System.out.println(" Write how many ml of milk the coffee machine has:");
         System.out.print(">>>");
         int enteredMilk = scanner.nextInt();
-
         System.out.println(" Write how many grams of coffee beans the coffee machine has:");
         System.out.print(">>>");
         int enteredCofeeBeans = scanner.nextInt();
-
         System.out.println(" Write how many cups of coffee you will need:");
         System.out.print(">>>");
         int enteredCups = scanner.nextInt();
-
         int needWater = enteredCups * 200;
         int needMilk = enteredCups * 50;
         int needCoffeBeans = enteredCups * 15;
@@ -30,7 +26,6 @@ public class Task03 {
         int extraMilk;
         int extraCoffeBeans;
         int extraCup;
-
         if (needWater <= enteredWater && needMilk <= enteredMilk && needCoffeBeans <= enteredCofeeBeans) {
             if ((enteredWater - needWater) >= 200 && (enteredMilk - needMilk) >= 50 && (enteredCofeeBeans - needCoffeBeans) >= 15){
                 extraWater = (enteredWater - needWater) / 200;
@@ -48,6 +43,5 @@ public class Task03 {
             extraCup = Math.min(Math.min(extraWater, extraMilk), extraCoffeBeans);
             System.out.println(" No, I can make only " + extraCup + " cup(s) of coffee");
         }
-
     }
 }

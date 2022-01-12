@@ -14,7 +14,8 @@ package com.softserveinc;
 public class Task01 {
     public static void main(String[] args) {
         // TODO: Write your code here
-// variant#1
+/*        // variant#1
+
         System.out.println("Starting to make a coffee");
         System.out.println("Grinding coffee beans");
         System.out.println("Boiling water");
@@ -22,6 +23,7 @@ public class Task01 {
         System.out.println("Pouring coffee into the cup");
         System.out.println("Pouring some milk into the cup");
         System.out.println("Coffee is ready!");
+*/
 
         //variant#2
         System.out.print("Starting to make a coffee\n" +
@@ -31,11 +33,12 @@ public class Task01 {
                 "Pouring coffee into the cup\n" +
                 "Pouring some milk into the cup\n" +
                 "Coffee is ready!");
-        //variant#3
+
+/*        //variant#3
 
         String[] makeCoffeProgramm = {"Starting to make a coffee","Grinding coffee beans","Boiling water","Mixing boiled water with crushed coffee beans","Pouring coffee into the cup", "Pouring some milk into the cup","Coffee is ready!"};
         for (String strTemp : makeCoffeProgramm) {
             System.out.println(strTemp);
-        }
+        }*/
     }
 }
